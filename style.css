@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/* SET FONT TO GOOGLE FONT 'Varela Round' FOR ENTIRE PAGE */
+
+
+body {
+  font-family: 'Varela Round', sans-serif !important;
+  background-image: linear-gradient(to right, #2F0468, #A18FBA);
+}
+
+/* NAV BAR: ADDED MARGIN TO PUSH EVERYTHING DOWN FROM TOP */
+nav {
+  margin-top:2em;
+  text-align: right;
+}
+
+nav a {
+  display: inline;
+  color: white;
+  border-radius: 1rem;
+  font-size: .75em;
+  padding: 0.25em;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+
+}
+
+.title-one {
+  display: inline;
+  color: white;
+}
+
+p {
+  font-size: 1em;
+  color: white;
+}
+
+#calculate {
+  margin-top: 5rem;
+}
+
+footer {
+  margin-top: 5rem;
+}
